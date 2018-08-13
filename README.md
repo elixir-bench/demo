@@ -9,7 +9,7 @@ running on https://www.elixirbench.org.
 ElixirBench currently support benchmarks written with [`Benchee`](https://github.com/PragTob/benchee),
 and you'll have to have it as a dependency of your project in your `mix.exs` file.
 
-## Setting Up
+## Setting Up your project
 
 ElixirBench is concerned to `bench/` folder under the root of your project. From
 that it will check for the required config files and scripts to then be able to
@@ -19,7 +19,7 @@ download the code and run the benchmarks jobs properly.
 versions, external dependencies like databases and environment variables you
 might need to setup for the run.
 
-`benchee_helper.exs`: Call the benchmarks scripts. Here you can do any 
+`bench_helper.exs`: Call the benchmarks scripts. Here you can do any 
 setup and load required files before actually calling the Benchmark functions.
 
 ## Benchmark samples
