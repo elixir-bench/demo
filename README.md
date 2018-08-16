@@ -9,6 +9,12 @@ running on https://www.elixirbench.org.
 ElixirBench currently support benchmarks written with [`Benchee`](https://github.com/PragTob/benchee),
 and you'll have to have it as a dependency of your project in your `mix.exs` file.
 
+```elixir
+# Benchmarks
+{:benchee, "~> 0.11.0", only: :bench},
+{:benchee_json, "~> 0.4.0", only: :bench}
+```
+
 ## Setting Up your project
 
 ElixirBench is concerned to `bench/` folder under the root of your project. From
